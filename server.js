@@ -1,6 +1,7 @@
 const express = require('express')
 const morgan = require('morgan')
 const homePage = require('./views/homePage')
+const userPage = require('./views/userPage')
 
 const app = express()
 
