@@ -7,6 +7,7 @@ const userData = require('./userData')
 
 const app = express()
 
+app.use(express.static('views'))
 app.use(morgan('dev'))
 
 app.get('/', (req, res) => {
